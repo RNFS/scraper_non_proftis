@@ -1,3 +1,5 @@
+    # in this file some rules we need to follow to store only the targted  data  
+
 cause_names = {
     "Animals": [
         "Animal Rights",

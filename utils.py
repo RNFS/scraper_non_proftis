@@ -3,6 +3,7 @@ from req_info import countries, cause_names
 
 class Validator:
     # reason of using yield instead of return beacouse return will terminate the loop inside our spider too
+    # this method will ensure that the given counrty is on of the targted countries and return True if yes 
     @staticmethod
     def country(country):
         for x in countries:
@@ -12,6 +13,7 @@ class Validator:
         yield False
 
     @staticmethod
+    # this method will go throw all the passed from the spider and it will check thier categories and return it  
     def category(causes):
         for cause in causes:
             ex = False

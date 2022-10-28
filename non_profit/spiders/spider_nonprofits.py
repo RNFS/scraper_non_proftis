@@ -1,4 +1,4 @@
-# spider to scrap all the  available data for non-profits on "https://www.pledge.to/organizations"
+# spider/scraper to scrap all the  available data for non-profits on "https://www.pledge.to/organizations"
 
 import scrapy
 import utils
