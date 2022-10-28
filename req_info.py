@@ -1,10 +1,20 @@
-cause_name = {
+cause_names = {
     "Animals": [
-        "Animal Rights",
-        "Welfare and Services, Wildlife Conservation",
-        "Zoos",
-        "Veterinary Services Aquariums",
+        "Animal Rights",  
+        "Welfare, and Services",
+        "Welfare and Services", "Wildlife Conservation",
+        "Zoos And Aquariums",
+        "Veterinary Services",
     ],
+      "Arts, Culture, Humanities":[
+         "Libraries",
+        "Historical Societies and Landmark Preservation",
+        "Museums",
+        "Performing Arts",
+        "Public Broadcasting and Media",
+        "Service and Other",
+    ],
+
     "Arts": [
         "Libraries",
         "Historical Societies and Landmark Preservation",
@@ -21,9 +31,11 @@ cause_name = {
         "Public Broadcasting and Media",
         "Service and Other",
     ],
+
     "Humanities": [
         "Libraries",
         "Historical Societies and Landmark Preservation",
+        "Libraries, Historical Societies and Landmark Preservation",
         "Museums",
         "Performing Arts",
         "Public Broadcasting and Media",
@@ -49,10 +61,13 @@ cause_name = {
     "Environment": [
         "Environmental Protection and Conservation",
         "Botanical Gardens, Parks, and Nature Centers",
+        "Botanical Gardens", "Parks", "Nature Centers",
         "Pollution",
     ],
     "Health": [
         "Diseases, Disorders, and Disciplines",
+        "Diseases", "Disorders", "Disciplines",
+        "Diseases", "Disorders, and Disciplines",
         "Patient and Family Support",
         "Treatment and Prevention Services",
         "Medical Research",
@@ -83,12 +98,12 @@ cause_name = {
         "Security, and Affairs",
         "Humanitarian Relief Supplies",
         "Human Rights",
-        "Civil Rights and Liberties",
-        "Research & Public Policy",
+        "Civil Rights and Liberties"],
+        "Research & Public Policy":[
         "Non-Medical Science & Technology Research",
         "Social and Public Policy Research",
-        "Research Institutes",
-    ],
+        "Research Institutes"],
+
     "Religion": [
         "Religious Activities, General",
         "Christian",
@@ -100,8 +115,61 @@ cause_name = {
     "Unknown": ["Unclassified"],
 }
 
-for x in cause_name:
-    print(x)
-    for d in cause_name[x]:
-        print(d)
-    print("#" * 30)
+
+
+countries = [
+    "India",
+    "United States of America",
+    "Pakistan",
+    "Nigeria",
+    "Philippines",
+    "United Kingdom",
+    "Tanzania",
+    "South Africa",
+    "Kenya",
+    "Uganda",
+    "Canada",
+    "Ghana",
+    "Cameroon",
+    "Australia",
+    "Malawi",
+    "Zambia",
+    "Zimbabwe",
+    "Rwanda",
+    "Burundi",
+    "South Sudan",
+    "Dominican Republic",
+    "Papua New Guinea",
+    "Sierra Leone",
+    "Singapore",
+    "Liberia",
+    "Ireland",
+    "New Zealand",
+    "Eritrea",
+    "Jamaica",
+    "Namibia",
+    "Gambia",
+    "Botswana",
+    "Lesotho",
+    "Trinidad",
+    "Tobago",
+    "Mauritius",
+    "Eswatini",
+    "Swaziland",
+    "Fiji",
+    "Guyana",
+    "Solomon Islands",
+    "Micronesia",
+    "Malta",
+    "Belize",
+    "Bahamas",
+    "Barbados",
+    "Samoa",
+    "Saint Lucia",
+    "Kiribati",
+    "Grenada",
+]
+
+if __name__ == "__main__":
+    print(countries)
+    print(cause_names)
