@@ -18,4 +18,4 @@
 - Nonprofit Category
 - Nonprofit Image 
 
-## all of the data will be stored in a csv file here it is "data.csv" it includes some scraped samples
+## all of the data will be stored in a csv file here it is "data.csv" it includes some samples
