@@ -1,4 +1,4 @@
-# scraper_non_proftis
+# scraper_non_profits
 
 ### scrap all the nonprofits data available on [pledge](https://www.pledge.to/organizations)
 
