@@ -17,10 +17,9 @@
 -  Category
 -  Image 
 
-## project files structure
-
-- #### 
+## project files structure 
 - #### ## the scraped data will be stored in data.csv file .
 - #### the soider src code is in non_proft/spiders/spider_nonprofits.py . 
 - #### req_info.py  is the file that store the targeted categories and the targeted countries .
-- #### utils.py i implemented a class to ensure that the data is the targeted data before extracting it and ####    storing it in in data.csv .
+- #### utils.py i implemented a class to ensure that the data is the targeted data before extracting it and    storing it in in data.csv .
+
