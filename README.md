@@ -19,4 +19,4 @@
 -  Image 
 
 ## all of the data will be stored in a csv file
-##  here it is "data.csv" it includes some samples
+## the file "data.csv" it includes some samples
