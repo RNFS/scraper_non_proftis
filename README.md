@@ -1,6 +1,6 @@
 # scraper_non_proftis
 
-### scrap all the nonprofits data available on [pledge]("https://www.pledge.to/organizations")
+### scrap all the nonprofits data available on [pledge](https://www.pledge.to/organizations)
 
 ### the scraped data will be stored in data.csv file
 
