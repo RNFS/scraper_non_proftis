@@ -18,4 +18,5 @@
 -  Category
 -  Image 
 
-## all of the data will be stored in a csv file here it is "data.csv" it includes some samples
+## all of the data will be stored in a csv file
+##  here it is "data.csv" it includes some samples
