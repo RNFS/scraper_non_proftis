@@ -1,20 +1,20 @@
 cause_names = {
     "Animals": [
-        "Animal Rights",  
+        "Animal Rights",
         "Welfare, and Services",
-        "Welfare and Services", "Wildlife Conservation",
+        "Welfare and Services",
+        "Wildlife Conservation",
         "Zoos And Aquariums",
         "Veterinary Services",
     ],
-      "Arts, Culture, Humanities":[
-         "Libraries",
+    "Arts, Culture, Humanities": [
+        "Libraries",
         "Historical Societies and Landmark Preservation",
         "Museums",
         "Performing Arts",
         "Public Broadcasting and Media",
         "Service and Other",
     ],
-
     "Arts": [
         "Libraries",
         "Historical Societies and Landmark Preservation",
@@ -31,7 +31,6 @@ cause_names = {
         "Public Broadcasting and Media",
         "Service and Other",
     ],
-
     "Humanities": [
         "Libraries",
         "Historical Societies and Landmark Preservation",
@@ -61,13 +60,18 @@ cause_names = {
     "Environment": [
         "Environmental Protection and Conservation",
         "Botanical Gardens, Parks, and Nature Centers",
-        "Botanical Gardens", "Parks", "Nature Centers",
+        "Botanical Gardens",
+        "Parks",
+        "Nature Centers",
         "Pollution",
     ],
     "Health": [
         "Diseases, Disorders, and Disciplines",
-        "Diseases", "Disorders", "Disciplines",
-        "Diseases", "Disorders, and Disciplines",
+        "Diseases",
+        "Disorders",
+        "Disciplines",
+        "Diseases",
+        "Disorders, and Disciplines",
         "Patient and Family Support",
         "Treatment and Prevention Services",
         "Medical Research",
@@ -98,12 +102,13 @@ cause_names = {
         "Security, and Affairs",
         "Humanitarian Relief Supplies",
         "Human Rights",
-        "Civil Rights and Liberties"],
-        "Research & Public Policy":[
+        "Civil Rights and Liberties",
+    ],
+    "Research & Public Policy": [
         "Non-Medical Science & Technology Research",
         "Social and Public Policy Research",
-        "Research Institutes"],
-
+        "Research Institutes",
+    ],
     "Religion": [
         "Religious Activities, General",
         "Christian",
@@ -114,7 +119,6 @@ cause_names = {
     ],
     "Unknown": ["Unclassified"],
 }
-
 
 
 countries = [
