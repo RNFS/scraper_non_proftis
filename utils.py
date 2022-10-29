@@ -1,4 +1,4 @@
-from req_info import countries, cause_names
+from filters import countries, cause_names
 
 
 class Validator:
